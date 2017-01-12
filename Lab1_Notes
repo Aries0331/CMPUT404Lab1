@@ -29,3 +29,6 @@ curl -i ... -X POST -- post request
 curl -i http://webdocs.cs.ualberta.ca/~hindle1/1.py -X POST -d 'favoritepokemon=pikachu'
 get one more line in form contents
 
+
+github: raw -> get url -> put it into request.get()
+
