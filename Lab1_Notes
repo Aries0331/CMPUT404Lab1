@@ -1,0 +1,31 @@
+1.11 Lab1
+
+create checkversion.py
+python checkversion.py
+virtualenv venv
+source venv/bin/activate -- activate virtualenv
+pip install requests
+
+
+
+http protol code:
+
+HTTP/1.1 302 Found
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Location: http://www.google.ca/?gfe_rd=cr&ei=Ts12WKAahqv5A637gNAC
+Content-Length: 256
+Date: Thu, 12 Jan 2017 00:26:54 GMT
+
+have quotes becuz &:
+
+curl -i 'http://www.google.ca/?gfe_rd=cr&ei=Ts12WKAahqv5A637gNAC'
+
+curl -i --> show protol code
+curl -iL --> automatically show curl -iL http://google.com
+
+
+curl -i ... -X POST -- post request
+curl -i http://webdocs.cs.ualberta.ca/~hindle1/1.py -X POST -d 'favoritepokemon=pikachu'
+get one more line in form contents
+
